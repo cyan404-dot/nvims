@@ -154,5 +154,8 @@ return {
           vim.keymap.set("n", "rd", "<cmd>CompetiTest delete_testcase<CR>", { noremap = true })
       end
   },
-  
+  {
+    "voldikss/vim-floaterm",
+    -- config = true,
+},
 }
